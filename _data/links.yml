@@ -1,0 +1,23 @@
+books:
+- title: Project Gutenberg
+  href: https://www.gutenberg.org/
+- title: Standard Ebooks
+  href: https://standardebooks.org/
+art:
+- title: Ubu Web
+  href: http://www.ubu.com/
+music:
+- title: A Closer Listen
+  href: https://acloserlisten.com/
+- title: Fecking Bahamas
+  href: http://feckingbahamas.com/
+ideas:
+- title: Less Wrong
+  href: https://www.lesswrong.com/
+- title: The Long Now
+  href: http://longnow.org/
+london:
+- title: Londonist
+  href: https://londonist.com/
+- title: Leytonstoner
+  href: https://www.leytonstoner.london/

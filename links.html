@@ -1,0 +1,14 @@
+---
+
+---
+<h1>Links</h1>
+<ul>
+  {% for category in site.data.links %}
+  <h2>{{ category[0] }}</h2>
+    {% for link in category[1] %}
+    <li>
+      <a href="{{ link.href }}">{{ link.title }}</a>
+    </li>
+    {% endfor %}
+  {% endfor %}
+</ul>
