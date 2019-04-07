@@ -6,6 +6,8 @@ books:
 art:
 - title: Ubu Web
   href: http://www.ubu.com/
+- title: Artlyst
+  href: https://www.artlyst.com/
 music:
 - title: A Closer Listen
   href: https://acloserlisten.com/
@@ -33,3 +35,10 @@ radio:
   href: https://somafm.com/
 - title: Resonance FM
   href: https://www.resonancefm.com/
+computers:
+- title: Hacker Noon
+  href: https://hackernoon.com/
+- title: Hacker News
+  href: https://news.ycombinator.com/
+- title: The Register
+  href: https://www.theregister.co.uk/
