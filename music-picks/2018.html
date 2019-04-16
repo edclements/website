@@ -1,0 +1,16 @@
+---
+title: Music Picks 2018
+layout: default
+---
+<ol>
+  {% assign sorted_releases = site.data.music-picks['2018'] | sort: 'date' | reverse %}
+  {% for release in sorted_releases %}
+    <li>
+      <p>{{ release.artist }} - {{ release.title }}</p>
+      <p>{{ release.date | date: '%e %B %Y' }}</p>
+      {% if release.bandcamp %}<a href="{{ release.bandcamp }}">Bandcamp</a>{% endif %}
+      {% if release.google %}<a href="{{ release.google }}">Google Music</a>{% endif %}
+      {% if release.spotify %}<a href="{{ release.spotify }}">Spotify</a>{% endif %}
+    </li>
+  {% endfor %}
+</ol>

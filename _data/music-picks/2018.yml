@@ -1,16 +1,14 @@
 - artist: Dios Trio
   title: II
   date: 2017-12-31
-  bandcamp: https://diostrio.bandcamp.com/title/ii
+  bandcamp: https://diostrio.bandcamp.com/album/ii
   google: https://play.google.com/music/listen#/title/B3q763ar46b4axmboo7zhhfdsiy/dios+trio/II
   spotify: https://open.spotify.com/title/3I7Scp4JmHF741pvzkM7qN
 
 - artist: Anenon
   title: Tongue
   date: 2018-02-09
-  bandcamp: https://anenon.bandcamp.com/title/tongue
-  google: https://play.google.com/music/listen#/title/B3q763ar46b4axmboo7zhhfdsiy/dios+trio/II
-  spotify: https://open.spotify.com/title/3I7Scp4JmHF741pvzkM7qN
+  bandcamp: https://anenon.bandcamp.com/album/tongue
 
 - artist: Bardo Pond
   title: Volume 8
@@ -98,14 +96,21 @@
   bandcamp: https://beachhouse.bandcamp.com/album/7
   google: https://play.google.com/music/listen#/album/B7ae2tkhu6f6qddwjl3f3ms2u3y/Beach+House/7
 
-- artist: Snow Palms
-  title: Everything Ascending
-  date: 2018-02-22
-  bandcamp: https://snowpalms.bandcamp.com/album/everything-ascending
+- artist: Taylor Deupree
+  title: Fallen
+  date: 2018-02-23
+  bandcamp: https://12kmusic.bandcamp.com/album/fallen
+  google: https://play.google.com/music/listen?u=0#/album/Btanlqf3nlvqc4wfo45ueduwxje/Taylor+Deupree/Fallen
 
-- artist: Fennesz
-  title: Agora
-  date: 2019-03-29
-  bandcamp: https://fenneszreleases.bandcamp.com/album/agora
-  spotify: https://open.spotify.com/album/7JpOsq1F2A9aPr2fdacsOk
+- artist: ZA!
+  title: Pachinko Plex
+  date: 2018-03-27
+  bandcamp: https://gandula.bandcamp.com/album/pachinko-plex
+  google: https://play.google.com/music/listen?u=0#/album/B7leslka4bzkibhvuzx6bhdhm3e/ZA!/Pachinko+Plex
+
+- artist: Preoccupations
+  title: New Material
+  date: 2018-03-23
+  bandcamp: https://preoccupations.bandcamp.com/album/new-material
+  google: https://play.google.com/music/listen?u=0#/album/B332p5ei2swvjea5rvheuiw44zm/Preoccupations/New+Material
 

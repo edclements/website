@@ -1,9 +1,9 @@
 ---
-title: Music Recommendations
+title: Music Picks 2019
 layout: default
 ---
 <ol>
-  {% assign sorted_releases = site.data.releases | sort: 'date' | reverse %}
+  {% assign sorted_releases = site.data.music-picks['2019'] | sort: 'date' | reverse %}
   {% for release in sorted_releases %}
     <li>
       <p>{{ release.artist }} - {{ release.title }}</p>
