@@ -51,6 +51,8 @@ vim
 
 `g+` - Go to newer text state
 
+**CTRL+R,0** - Put last yanked string into command line
+
 files
 -----
 
