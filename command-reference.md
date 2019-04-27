@@ -6,52 +6,49 @@ layout: default
 terminal
 --------
 
-**CTRL+T** - Fuzzy search for files
-
-**CTRL+Z** - Stop foreground program
-
-`fg` - Restore stopped program to foreground
-
-`bg job_id` - Resume stopped program in background
-
-`jobs` - Show running and stopped programs
+<table class="key-binding">
+  <tr><th></th><th></th></tr>
+  <tr><td>CTRL+T</td><td>Fuzzy search for files</td></tr>
+  <tr><td>CTRL+Z</td><td>Stop foreground program</td></tr>
+  <tr><td>fg</td><td>Restore stopped program to foreground</td></tr>
+  <tr><td>bg job_id</td><td>Resume stopped program in background</td></tr>
+  <tr><td>jobs</td><td>Show running and stopped programs</td></tr>
+</table>
 
 tmux
 ----
 
-<table>
-<tr><th style="width:250px"></th><th></th></tr>
-<tr><td><b>SHIFT+LEFT MOUSE BUTTON</b></td><td> </td><td>Copy to primary clipboard</td></tr>
-<tr><td><b>CTRL+B, \</b></td><td> </td><td>Split window with new pane in current path on right</td></tr>
-<tr><td><b>CTRL+B, -</b></td><td> </td><td>Split window with new pane in current path at bottom</td></tr>
-<tr><td><b>CTRL+B, /</b></td><td> </td><td>New window in current path</td></tr>
+<table class="key-binding">
+  <tr><th></th><th></th></tr>
+  <tr><td>SHIFT+LEFT MOUSE BUTTON</td><td>Copy to primary clipboard</td></tr>
+  <tr><td>CTRL+B, \</td><td>Split window with new pane in current path on right</td></tr>
+  <tr><td>CTRL+B, -</td><td>Split window with new pane in current path at bottom</td></tr>
+  <tr><td>CTRL+B, /</td><td>New window in current path</td></tr>
 </table>
 
 dwm
 ---
 
-**SUPER+SHIFT+ENTER** - Open terminal window
-
-**SUPER+SHIFT+C** - Close window
-
-**SUPER+P** - Launch dmenu
-
-**SUPER+SHIFT+Q** - Quit DWM
-
-**SUPER+L** - Lock screen
+<table class="key-binding">
+  <tr><th></th><th></th></tr>
+  <tr><td>SUPER+SHIFT+ENTER</td><td>Open terminal window</td></tr>
+  <tr><td>SUPER+SHIFT+C</td><td>Close window</td></tr>
+  <tr><td>SUPER+P</td><td>Launch dmenu</td></tr>
+  <tr><td>SUPER+SHIFT+Q</td><td>Quit DWM</td></tr>
+  <tr><td>SUPER+L</td><td>Lock screen</td></tr>
+</table>
 
 vim
 ---
 
-**:set list** - Show whitespace
-
-**:syntax sync fromstart** - Fix syntax highlighting
-
-`g-` - Go to older text state
-
-`g+` - Go to newer text state
-
-**CTRL+R,0** - Put last yanked string into command line
+<table class="key-binding">
+  <tr><th></th><th></th></tr>
+  <tr><td>:set list</td><td>Show whitespace</td></tr>
+  <tr><td>:syntax sync fromstart</td><td>Fix syntax highlighting</td></tr>
+  <tr><td>g-</td><td>Go to older text state</td></tr>
+  <tr><td>g+</td><td>Go to newer text state</td></tr>
+  <tr><td>CTRL+R, 0</td><td>Put last yanked string into command line</td></tr>
+</table>
 
 files
 -----
