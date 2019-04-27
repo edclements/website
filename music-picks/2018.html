@@ -8,9 +8,9 @@ layout: default
     <li>
       <p>{{ release.artist }} - {{ release.title }}</p>
       <p>{{ release.date | date: '%e %B %Y' }}</p>
-      {% if release.bandcamp %}<a href="{{ release.bandcamp }}">Bandcamp</a>{% endif %}
-      {% if release.google %}<a href="{{ release.google }}">Google Music</a>{% endif %}
-      {% if release.spotify %}<a href="{{ release.spotify }}">Spotify</a>{% endif %}
+      {% if release.bandcamp %}<a href="{{ release.bandcamp }}"><i class="fab fa-bandcamp"></i></a>{% endif %}
+      {% if release.google %}<a href="{{ release.google }}"><i class="fab fa-google-play"></i></a>{% endif %}
+      {% if release.spotify %}<a href="{{ release.spotify }}"><i class="fab fa-spotify"></i></a>{% endif %}
     </li>
   {% endfor %}
 </ol>
