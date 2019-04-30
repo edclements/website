@@ -2,7 +2,7 @@
 title: Music Picks 2018
 layout: default
 ---
-<ol>
+<ol class="music-picks">
   {% assign sorted_releases = site.data.music-picks['2018'] | sort: 'date' | reverse %}
   {% for release in sorted_releases %}
     <li>
