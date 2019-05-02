@@ -87,3 +87,10 @@ Boot into text mode
     systemctl enable multi-user.target
     sudo systemctl set-default multi-user.target
 
+git
+---
+
+List branches ordered by last change
+
+  git branch --sort=-committerdate
+
