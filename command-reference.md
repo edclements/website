@@ -92,5 +92,5 @@ git
 
 List branches ordered by last change
 
-  git branch --sort=-committerdate
+    git branch --sort=-committerdate
 
