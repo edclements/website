@@ -51,6 +51,16 @@ vim
   <tr><td>:v/pattern/d</td></td>Delete lines not matching pattern</td></tr>
 </table>
 
+cmus
+----
+
+<table class="key-binding">
+  <tr><th></th><th></th></tr>
+  <tr><td>y</td><td>Add to playlist</td></tr>
+  <tr><td>x</td><td>Play</td></tr>
+  <tr><td>c</td><td>Pause</td></tr>
+</table>
+
 files
 -----
 
