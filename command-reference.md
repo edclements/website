@@ -105,3 +105,7 @@ List branches ordered by last change
 
     git branch --sort=-committerdate
 
+Log summary
+
+   git log --pretty=oneline --abbrev-commit
+
