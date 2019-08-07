@@ -107,5 +107,5 @@ List branches ordered by last change
 
 Log summary
 
-   git log --pretty=oneline --abbrev-commit
+    git log --pretty=oneline --abbrev-commit
 
