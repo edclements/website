@@ -3,6 +3,9 @@ title: Cheat Sheet
 layout: default
 ---
 
+Some of the commands below are from my personal config files or package builds.
+See [Setup](/setup) for details.
+
 terminal
 --------
 
