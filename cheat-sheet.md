@@ -1,5 +1,5 @@
 ---
-title: Command Reference
+title: Cheat Sheet
 layout: default
 ---
 
