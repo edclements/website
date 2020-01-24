@@ -1,0 +1,16 @@
+---
+title: Music Picks 2020
+layout: default
+---
+<ol class="music-picks">
+  {% assign sorted_releases = site.data.music-picks['2020'] | sort: 'date' | reverse %}
+  {% for release in sorted_releases %}
+    <li>
+      <p>{{ release.artist }} - {{ release.title }}</p>
+      <p>{{ release.date | date: '%e %B %Y' }}</p>
+      {% if release.bandcamp %}<a href="{{ release.bandcamp }}"><i class="fab fa-bandcamp"></i></a>{% endif %}
+      {% if release.google %}<a href="{{ release.google }}"><i class="fab fa-google-play"></i></a>{% endif %}
+      {% if release.spotify %}<a href="{{ release.spotify }}"><i class="fab fa-spotify"></i></a>{% endif %}
+    </li>
+  {% endfor %}
+</ol>
