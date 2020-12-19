@@ -60,6 +60,7 @@ cmus
 <table class="key-binding">
   <tr><th></th><th></th></tr>
   <tr><td>y</td><td>Add to playlist</td></tr>
+  <tr><td>E</td><td>Add to play queue</td></tr>
   <tr><td>x</td><td>Play</td></tr>
   <tr><td>c</td><td>Pause</td></tr>
 </table>
