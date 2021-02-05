@@ -113,3 +113,17 @@ Log summary
 
     git log --pretty=oneline --abbrev-commit
 
+mysql
+-----
+
+Dump structure
+
+    mysqldump  --no-data -u user -p database >database-schema.sql
+
+docker
+------
+
+Run MySQL container
+
+    docker run -p 8033:3306 --name mysql-5-6 -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6.44
+
