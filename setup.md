@@ -19,7 +19,13 @@ On Arch add the repository to the pacman config:
 
 On Debian or Ubuntu add the repository to the sources list where {version} can be buster, bionic or disco:
 
-    echo deb [arch=amd64 trusted=yes] http://debian.hedaleth.net.s3-website.eu-west-2.amazonaws.com {version} main >> /etc/sources.list
+    echo deb [arch=amd64 trusted=yes] http://debian.hedaleth.net.s3-website.eu-west-2.amazonaws.com {version} main >> /etc/apt/sources.list.d/hedaleth.list
+
+Install the base package
+
+    apt update
+
+    apt install hedaleth-base dwm stterm ruby-install chruby
 
 In home directory clone config files from git repo:
 
