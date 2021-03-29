@@ -52,6 +52,7 @@ vim
   <tr><td>g+</td><td>Go to newer text state</td></tr>
   <tr><td>CTRL+R, 0</td><td>Put last yanked string into command line</td></tr>
   <tr><td>:g!/pattern/d</td><td>Delete lines not matching pattern</td></tr>
+  <tr><td>:%!jq .</td><td>Prettify JSON</td></tr>
 </table>
 
 cmus
