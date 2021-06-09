@@ -128,3 +128,10 @@ Run MySQL container
 
     docker run -p 8033:3306 --name mysql-5-6 -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6.44
 
+timedatectl
+-----------
+
+  timedatectl set-ntp no
+  timedatectl set-time 2021-01-01
+  timedatectl set-time 09:00:00
+
